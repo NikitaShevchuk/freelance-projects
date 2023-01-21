@@ -1,0 +1,264 @@
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="footer-column">
+                    <h2 class="foote-title"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">
+							Come to us
+						</span></span></h2>
+                    <div class="footer-text">
+
+                        <div class="footer-icon"><img src="./assets/location1.png" alt=""></div>
+                        <div class="footer-text__adress">
+                            <div class="footer-text__blue"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">
+									OUR ADDRESS:
+								</span></span></div>
+                            <div class="text"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">City, st. </span><span style="vertical-align: inherit;">Name, 1</span></span></div>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-text">
+
+                        <div class="footer-icon"><img src="./assets/phone.png" alt=""></div>
+                        <div class="footer-text__adress">
+                            <div class="footer-text__blue"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">
+									TELEPHONE:
+								</span></span></div>
+                            <div class="footer-phone">
+
+                                <p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">+1 (111) 111-11-11</span></span></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-text">
+
+                        <div class="footer-icon"><img src="./assets/mail.png" alt=""></div>
+                        <div class="footer-text__adress">
+                            <div class="footer-text__blue"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">
+									OUR EMAIL:
+								</span></span></div>
+                            <div class="footer-mail"><a href="mailto:info@mail@mail"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">info@mail@mail</span></span></a></div>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-text">
+
+                        <div class="footer-text__adress footer-social">
+                            <div class="footer-text__blue"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">
+									WE ARE IN SOCIAL NETWORKS:
+								</span></span></div>
+                            <div class="footer-social__icons"><a href="https://api.whatsapp.com/send?phone=111111111"><img src="./assets/whatsapp.png" alt=""></a><a href="https://www.instagram.com/" target="_blank"><img src="./assets/inst.png" alt=""></a></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="footer-column footer-column__right">
+                    <h2 class="foote-title foote-title__right"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">
+							Contact us
+						</span></span></h2>
+                    <form action="#" class="footer-form">
+                        <input type="text" class="footer-form__input footer-form__name" placeholder="Your name">
+                        <input type="phone" class="footer-form__input footer-form__phone" placeholder="Your phone">
+                        <input type="text" class="footer-form__input footer-form__message" placeholder="Message">
+                        <label class="footer-form__checkbox-text" for="footer-form__checkbox"><input id="footer-form__checkbox" type="checkbox"><span class="text"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">I agree with the privacy policy</span></span></span></label>
+                        <button class="footer-form__button"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">SEND</span></span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+
+            <div class="col-12 col-md-auto">
+                <div class="footer-logo">
+                    <a href="#"><img src="./assets/лого-footer.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-auto">
+                <h1 class="text"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">© </span></span><span id="footer-year"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">2023</span></span></span><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> . </span><span style="vertical-align: inherit;">Children's Development Center "Peekaboo Village"</span></span></h1>
+                <script>document.getElementById("footer-year").innerHTML = new Date().getFullYear();</script>
+                <a href="#" class="privacy-link text" target="_blank"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Privacy Policy</span></span></a>
+            </div>
+
+            <div class="col-12 col-md-auto">
+                <div class="footer-menu">
+                    <ul id="menu-menju-v-podvale" class="menu"><li id="menu-item-275" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-275"><a href="http:///" aria-current="page"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">HOME</span></span></a></li>
+                        <li id="menu-item-564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564"><a href="/schedule"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">TIMETABLE</span></span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    jQuery(document).ready(function(){
+        $('#form-phone').mask("+1(999)-999-99-99");
+        $('.slider-wrapper').slick({
+            infinite: true,
+            dots: false,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    },
+                    breakpoint: 574,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+
+        $('.gallery-section__mob-slider').slick({
+            infinite: false,
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            arrows: true,
+        });
+    })
+</script>
+
+
+
+<div id="pum-565" class="pum pum-overlay pum-theme-119 pum-theme-tema-po-umolchaniju popmake-overlay pum-click-to-close click_open" data-popmake="{&quot;id&quot;:565,&quot;slug&quot;:&quot;obratnaya-svyaz-2&quot;,&quot;theme_id&quot;:119,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;tiny&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true">
+
+    <div id="popmake-565" class="pum-container popmake theme-119 pum-responsive pum-responsive-tiny responsive size-tiny">
+
+
+
+
+
+
+
+        <div class="pum-content popmake-content" tabindex="0">
+            <div class="contact-fixed__form contact-main__form">
+                <div class="contact-fixed__form-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Leave your phone number, we will call you</font></font></div>
+                <div role="form" class="wpcf7" id="wpcf7-f130-o1" lang="en-EN" dir="ltr">
+                    <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+                    <form action="/#wpcf7-f130-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                        <div style="display: none;">
+                            <input type="hidden" name="_wpcf7" value="130">
+                            <input type="hidden" name="_wpcf7_version" value="5.4.2">
+                            <input type="hidden" name="_wpcf7_locale" value="en_EN">
+                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f130-o1">
+                            <input type="hidden" name="_wpcf7_container_post" value="0">
+                            <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+                            <input type="hidden" name="_wpcf7_recaptcha_response" value="03AD1IbLChky3OYoUUoxCP9xZD-CjGMIt5MAkCxHl6RPeUE2fhuoQqlj2F3kP8BrB8yPofruyJjCpBX-RyWVgZHIqSvYE4xnlO5fRs4g7_PHyNnJ2MBldgw1WD1F_IIXcnCHL_dtEzqJBW_aKDdSMqNQWPZZOmNAhgphT1rcdVCot3bOqNKPLjnEEMM5SGo35rbHpAUoiwVobU8xYJLn-mX2z-7crQIMpV7VOnoOCXeeoOFYNF67IiAaBuuwcNPeRHJ4B1KznXrNnuJ6NIhWFyQxulI9B5L4OMF_eV-5bND5p07AozJ18Hi7tz8S6hy5_znUCNLE_j-UaGY2pb6syp7i_OuYkwb0No1PMecRfCmPBNRokDMbRZ69yUyD7Sr-TfpDw-Cj7TYtSd46x3okG0zqkbc7ayyAH6cIP_gbse1Ej0YtQE6aMs7Qp7YbALcGESFCAf-ipDomHkNROFM_tTCtiAKi_DAPLqJqoEpvm3kAO0LbiBuEuaxTFD7pGiGcDM0t_bXz-gaiv1">
+                        </div>
+                        <p><span class="wpcf7-form-control-wrap text-640"><input type="text" name="text-640" value="" size="40" class="wpcf7-form-control wpcf7-text contact-fixed__form-input" aria-invalid="false" placeholder="Name"></span><span class="wpcf7-form-control-wrap tel-924"><input type="tel" name="tel-924" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel contact-fixed__form-input" id="form-phone" aria-required="true" aria-invalid="false" placeholder="+7 999 999-99-99"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="submit" value="CALL ME" class="wpcf7-form-control wpcf7-submit contact-fixed__form-button benefits__button"></font></font><span class="ajax-loader"></span><span class="ajax-loader"></span></p>
+                        <input type="hidden" class="wpcf7-pum" value="{&quot;closepopup&quot;:false,&quot;closedelay&quot;:0,&quot;openpopup&quot;:false,&quot;openpopup_id&quot;:0}"><div class="wpcf7-response-output" aria-hidden="true"></div><input type="hidden" name="pum_form_popup_id" value="565"><input type="hidden" name="pum_form_popup_id" value="565"></form></div>
+                <div class="contact-fixed__form-text">By phone<br>
+                    +1 (111) 111-11-11</div>
+                <div class="contact-fixed__form-text policy append">
+                    <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+                </div></div>
+        </div>
+
+
+
+
+        <button type="button" class="pum-close popmake-close" aria-label="Закрыть">
+            X            </button>
+
+    </div>
+
+</div>
+<script src="./assets/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script src="./assets/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script id="contact-form-7-js-extra">
+    var wpcf7 = {"api":{"root":"https:\/\/\/wp-json\/","namespace":"contact-form-7\/v1"}};
+    var wpcf7 = {"api":{"root":"https:\/\/\/wp-json\/","namespace":"contact-form-7\/v1"}};
+</script>
+<script src="./assets/index.js" id="contact-form-7-js"></script>
+<script src="./assets/navigation.js" id="resident-sk-navigation-js"></script>
+<script src="./assets/jquery-3.5.1.js" id="resident-jquery-js"></script>
+<script src="./assets/slick.js" id="resident-slick-js"></script>
+<script src="./assets/bootstrap.bundle.min.js" id="resident-bootstrap-js"></script>
+<script src="./assets/scripts.js" id="resident-scripts-js"></script>
+<script src="./assets/maskinput.js" id="resident-phone_mask-js"></script>
+<script src="./assets/core.min.js" id="jquery-ui-core-js"></script>
+<script id="popup-maker-site-js-extra">
+    var pum_vars = {"version":"1.16.2","pm_dir_url":"https:\/\/\/wp-content\/plugins\/popup-maker\/","ajaxurl":"https:\/\/\/wp-admin\/admin-ajax.php","restapi":"https:\/\/\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"119","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"analytics_route":"analytics","analytics_api":"https:\/\/\/wp-json\/pum\/v1"};
+    var pum_sub_vars = {"ajaxurl":"https:\/\/\/wp-admin\/admin-ajax.php","message_position":"top"};
+    var pum_popups = {"pum-565":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"119","size":"tiny","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":true,"close_on_form_submission_delay":"5000","close_on_overlay_click":true,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"tema-po-umolchaniju","id":565,"slug":"obratnaya-svyaz-2"}};
+</script>
+<script src="./assets/pum-site-scripts.js" id="popup-maker-site-js"></script>
+<script src="./assets/api.js" id="google-recaptcha-js"></script>
+<script id="wpcf7-recaptcha-js-extra">
+    var wpcf7_recaptcha = {"sitekey":"6LcQSEcfAAAAAINaLZjmA80wVWHZL6NnEN0CciFt","actions":{"homepage":"homepage","contactform":"contactform"}};
+</script>
+<script src="./assets/index.js(1)" id="wpcf7-recaptcha-js"></script>
+
+<div class="contact-fixed">
+
+    <div class="whatsapp-fixed">
+		<span class="whatsapp-fixed__title">
+			Text us:
+		</span>
+        <div class="whatsapp-fixed__icon">
+            <a href="https://api.whatsapp.com/send?phone=79265586618">
+                <svg width="62" height="62" xmlns="http://www.w3.org/2000/svg"><g fill="#27D061" fill-rule="nonzero"><path d="M32.367 14.888c-8.275 0-15.004 6.726-15.007 14.993a14.956 14.956 0 0 0 2.294 7.98l.356.567-1.515 5.533 5.677-1.488.548.325a14.979 14.979 0 0 0 7.634 2.09h.006c8.268 0 14.997-6.727 15-14.995a14.9 14.9 0 0 0-4.389-10.608 14.898 14.898 0 0 0-10.604-4.397zm8.417 21.34c-.369 1.052-2.138 2.013-2.989 2.142-.763.116-1.728.164-2.789-.179a25.28 25.28 0 0 1-2.524-.949c-4.444-1.95-7.345-6.502-7.566-6.802-.222-.301-1.809-2.443-1.809-4.661 0-2.218 1.144-3.307 1.55-3.759.406-.451.886-.564 1.181-.564.295 0 .591.003.849.016.272.014.637-.105.996.773.37.903 1.255 3.12 1.366 3.346.11.225.185.488.037.79-.148.3-.222.488-.443.75-.222.264-.465.588-.664.79-.222.224-.453.469-.194.92.258.45 1.147 1.926 2.463 3.12 1.692 1.535 3.119 2.011 3.562 2.237.443.226.701.188.96-.113.258-.3 1.106-1.316 1.401-1.766.295-.45.59-.376.997-.226.406.15 2.583 1.24 3.026 1.466.443.226.738.338.849.526.11.188.11 1.09-.259 2.143z"></path><path d="M31 0C13.88 0 0 13.88 0 31c0 17.12 13.88 31 31 31 17.12 0 31-13.88 31-31C62 13.88 48.12 0 31 0zm1.283 47.573h-.007c-3 0-5.948-.75-8.566-2.171l-9.502 2.48 2.543-9.243a17.735 17.735 0 0 1-2.392-8.918c.003-9.836 8.044-17.838 17.924-17.838 4.795.002 9.296 1.86 12.68 5.232 3.384 3.371 5.247 7.853 5.245 12.62-.004 9.836-8.046 17.838-17.925 17.838z"></path></g></svg>
+                <span class="whatsapp-text">WhatsApp</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="whatsapp__trigger">
+        <div class="whatsapp__trigger-icon">
+            <svg class="t825__icon" width="35" height="32" viewBox="0 0 35 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.2667 12.6981H23.3667M11.2667 16.4717H23.3667M4.8104 23.5777C2.4311 21.1909 1 18.1215 1 14.7736C1 7.16679 8.38723 1 17.5 1C26.6128 1 34 7.16679 34 14.7736C34 22.3804 26.6128 28.5472 17.5 28.5472C15.6278 28.5472 13.8286 28.2868 12.1511 27.8072L12 27.7925L5.03333 31V23.8219L4.8104 23.5777Z" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="none"></path> </svg>
+        </div>
+        <div class="whatsapp__trigger-icon-close contact-fixed__trigger-icon-close">
+            <svg class="t825__icon-close" width="16px" height="16px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1" fill="#000" fill-rule="evenodd"> <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> </g> </svg>
+        </div>
+    </div>
+
+    <div class="contact-fixed__form-trigger">
+        <div class="contact__trigger-icon" style="background:#3b7fad;">
+            <svg class="t651__icon" style="fill:#ffffff;" xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 19.3 20.1"> <path d="M4.6 7.6l-.5-.9 2-1.2L4.6 3l-2 1.3-.6-.9 2.9-1.7 2.6 4.1"></path> <path d="M9.9 20.1c-.9 0-1.9-.3-2.9-.9-1.7-1-3.4-2.7-4.7-4.8-3-4.7-3.1-9.2-.3-11l.5.9C.2 5.7.4 9.7 3 13.9c1.2 2 2.8 3.6 4.3 4.5 1.1.6 2.7 1.1 4.1.3l1.9-1.2L12 15l-2 1.2c-1.2.7-2.8.3-3.5-.8l-3.2-5.2c-.7-1.2-.4-2.7.8-3.5l.5.9c-.7.4-.9 1.3-.5 2l3.2 5.2c.4.7 1.5.9 2.2.5l2.8-1.7 2.6 4.1-2.8 1.7c-.7.5-1.4.7-2.2.7zM13.7 11.3l-.9-.3c.4-1.1.2-2.2-.4-3.1-.6-1-1.7-1.6-2.8-1.7l.1-1c1.5.1 2.8.9 3.6 2.1.7 1.2.9 2.7.4 4z"></path> <path d="M16.5 11.9l-1-.3c.5-1.8.2-3.7-.8-5.3-1-1.6-2.7-2.6-4.7-2.9l.1-1c2.2.3 4.2 1.5 5.4 3.3 1.2 1.9 1.6 4.1 1 6.2z"></path> <path d="M18.9 12.5l-1-.3c.7-2.5.2-5.1-1.1-7.2-1.4-2.2-3.7-3.6-6.3-4l.1-1c2.9.4 5.4 2 7 4.4 1.6 2.4 2.1 5.3 1.3 8.1z"></path> </svg>
+        </div>
+        <div class="contact__fixed-icon-close contact-fixed__trigger-icon-close">
+            <svg class="t651__icon-close" width="16px" height="16px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1" fill="#000" fill-rule="evenodd"> <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> </g> </svg>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+<div class="contact-fixed__form-text__hidden">
+
+</div>
+
+
+
+
+
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./assets/translate_24dp.png" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; position: fixed; visibility: hidden; display: block; transition: right 0.3s ease 0s; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./assets/anchor.html" width="256" height="60" role="presentation" name="a-hzqudvtlrvhl" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./assets/saved_resource(1).html"></iframe></div><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
